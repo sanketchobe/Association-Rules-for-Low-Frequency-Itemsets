@@ -32,3 +32,8 @@ where, f - input frequency file
        c - minimum confidence threshold
        u - minimum utility threshold
        ut - minimum utility prelarge threshold
+
+
+References:
+1 FP-Growth implementation: https://github.com/enaeseth/python-fp-growth
+2 Apriori implementation: https://github.com/abarmat/python-apriori
