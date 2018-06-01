@@ -10,4 +10,25 @@ Modification of Apriori and FP-Growth algorithm:
    c. Low Frequency High Utility  d. Low Frequency Low Utility
 4. Generate association rules for the combination of four type of itemsets.
 
+I. Run FP-Growth algorithm through command line:
 
+-s 150 input_chess2.txt -c 100 utility_chess2.txt 200
+
+where, s - minimum support threshold,
+       input - input frequency file
+       c - minimum confidence threshold,
+       utility - input utility file
+       200 - minimum utility threshold
+       
+ 
+II. Run Apriori algorithm through command line:
+
+-f input.txt -uf utility.txt -op output.txt -s 0.40 -c 0.30 -u 20 -ut 1
+
+where, f - input frequency file
+       uf - input utility file
+       op - output association rules file
+       s - minimum support threshold
+       c - minimum confidence threshold
+       u - minimum utility threshold
+       ut - minimum utility prelarge threshold
